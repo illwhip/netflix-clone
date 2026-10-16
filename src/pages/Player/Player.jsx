@@ -6,7 +6,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 const Player = () => {
 
   const { id } = useParams()
-  const navigate = useNavigate
+  const navigate = useNavigate()
 
   const[apiData, setApiData] = useState({
     name: "",
